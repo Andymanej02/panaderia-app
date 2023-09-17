@@ -1,0 +1,115 @@
+/* Login.css */
+
+body {
+  background-image: url(../assets/vista-superior-surtido-pasteles-dulces.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Cursive', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/* Añade estilos para el logo */
+.logo {
+  width: 150px; /* Ajusta el tamaño del logo */
+  height: auto; /* Altura automática para mantener la proporción */
+  margin-bottom: 10px; /* Ajusta el margen inferior para acercar el logo al título */
+}
+
+
+
+.cardform {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  text-align: center;
+  width: 400px;
+}
+
+.cardform h4 {
+  font-size: 48px; /* Ajusta el tamaño del título */
+  margin-bottom: 20px;
+  color: #72440f;
+  font-family: 'Pacifico', cursive;
+  animation: titleAnimation 3s ease-in-out infinite alternate; /* Cambia la animación */
+}
+
+@keyframes titleAnimation {
+  0% {
+    transform: translateX(-5px); /* Movimiento inicial */
+  }
+  100% {
+    transform: translateX(5px); /* Movimiento final */
+  }
+}
+
+.emojis {
+  font-size: 56px;
+  margin-right: 50px;
+}
+
+.input_user,
+.input_pass {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.icons {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.inputs {
+  flex: 1;
+  border: none;
+  padding: 16px;
+  outline: none;
+  font-size: 24px;
+}
+
+.ButtonLogin {
+  background-color: #009F4D !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 5px !important;
+  cursor: pointer !important;
+  padding: 20px 40px !important;
+  font-size: 32px !important;
+  transition: background-color 0.3s !important;
+}
+
+.ButtonLogin:hover {
+  background-color: #0b4ad1 !important;
+}
+
+.w-full {
+  width: 100%;
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-size: 24px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+  
