@@ -13,11 +13,11 @@ body {
   align-items: center;
   height: 100vh;
 }
-/* Añade estilos para el logo */
+
 .logo {
-  width: 150px; /* Ajusta el tamaño del logo */
-  height: auto; /* Altura automática para mantener la proporción */
-  margin-bottom: 10px; /* Ajusta el margen inferior para acercar el logo al título */
+  width: 150px; 
+  height: auto; 
+  margin-bottom: 10px; 
 }
 
 
@@ -32,19 +32,19 @@ body {
 }
 
 .cardform h4 {
-  font-size: 48px; /* Ajusta el tamaño del título */
+  font-size: 48px; 
   margin-bottom: 20px;
   color: #72440f;
   font-family: 'Pacifico', cursive;
-  animation: titleAnimation 3s ease-in-out infinite alternate; /* Cambia la animación */
+  animation: titleAnimation 3s ease-in-out infinite alternate; 
 }
 
 @keyframes titleAnimation {
   0% {
-    transform: translateX(-5px); /* Movimiento inicial */
+    transform: translateX(-5px); 
   }
   100% {
-    transform: translateX(5px); /* Movimiento final */
+    transform: translateX(5px); 
   }
 }
 

@@ -3,21 +3,21 @@ import '../styles/Login.css';
 
 const ButtonLogin = ({ fnInicioSession, label }) => {
   const buttonStyles = {
-    backgroundColor: "#FFA500", /* Color naranja (alusivo a la panadería) */
-    color: "#ffffff", /* Texto en blanco */
+    backgroundColor: "#FFA500", 
+    color: "#ffffff", 
     border: "none",
     borderRadius: "5px",
     cursor: "pointer",
-    padding: "10px 20px", /* Tamaño del botón reducido */
-    fontSize: "20px", /* Tamaño de fuente reducido */
-    fontFamily: "'Pacifico', cursive", /* Fuente personalizada */
-    textTransform: "uppercase", /* Texto en mayúsculas */
-    letterSpacing: "1px", /* Espaciado entre letras */
+    padding: "10px 20px", 
+    fontSize: "20px", 
+    fontFamily: "'Pacifico', cursive", 
+    textTransform: "uppercase", 
+    letterSpacing: "1px", 
     transition: "background-color 0.3s",
   };
 
   const buttonHoverStyles = {
-    backgroundColor: "#D2691E", /* Color marrón al hacer hover (alusivo a la panadería) */
+    backgroundColor: "#D2691E", 
   };
 
   return (

@@ -44,9 +44,9 @@ const Dashboard = () => {
           productos.map((producto, index) => (
             <div key={producto.id} className="producto-card">
               <div className="producto-contenido">
-                <h2 className="producto-titulo">{producto.descripcion}</h2>
                 <img className="producto-imagen" src={producto.imagen} alt={producto.nombre} />
                 <div className="producto-info">
+                  <h2 className="producto-titulo">{producto.descripcion}</h2>
                   <p className="producto-nombre">{producto.nombre}</p>
                   <p className="producto-valor">Valor: ${producto.valor.toFixed(2)}</p>
                 </div>

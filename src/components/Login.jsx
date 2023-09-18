@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import Swal from 'sweetalert2';
 import UserIcon from '../assets/user.svg';
 import PasswordIcon from '../assets/password.svg';
-import ButtonLogin from './ButtonLogin';
+import ButtonLogin from "./Buttonlogin";
 import axios from 'axios';
 import { useNavigate } from "react-router-dom";
 import '../styles/Login.css';
 import logo from '../assets/bag_8841115.png';
-import Buttonregistrologin from './Buttonregistrologin'; // Asegúrate de que la ruta sea correcta
+ 
 
 
 const Login = () => {
@@ -33,7 +33,7 @@ const Login = () => {
       localStorage.setItem("token", resp.data.jwt);
       localStorage.setItem("user", resp.data.user);
       localStorage.setItem("username", resp.data.user.usuario);
-      // Mostrar mensaje de éxito con SweetAlert2
+
       Swal.fire({
         title: '¡Éxito!',
         text: 'Inicio de sesión exitoso!',
@@ -45,7 +45,7 @@ const Login = () => {
     } catch (error) {
       console.log(error);
 
-      // Mostrar mensaje de error con SweetAlert2
+
       Swal.fire({
         title: '¡Error!',
         text: 'Inicio de sesión fallido. Por favor, inténtalo de nuevo.',
