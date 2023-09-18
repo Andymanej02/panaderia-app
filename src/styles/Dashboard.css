@@ -38,19 +38,19 @@
   max-height: 150px;
 }
 
-/* Estilos para el nombre del producto */
+
 .producto-card .producto-nombre {
   font-weight: bold;
   margin-top: 10px;
-  text-align: center; /* Centra el texto horizontalmente */
+  text-align: center;
 }
 
-/* Estilos para el precio del producto */
+
 .producto-card .producto-valor {
   color: #ff6600;
   font-weight: bold;
   margin-top: 10px;
-  text-align: center; /* Centra el texto horizontalmente */
+  text-align: center; 
 }
 
 
